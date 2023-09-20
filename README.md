@@ -33,3 +33,10 @@ results = model.train(data='/content/insatance-segmentation-insulator-2/data.yam
 ```
 Considering the number of images in our dataset is not large, we chose the batch value of 8.
 Note that before running this training code cell, go to the "/content/insatance-segmentation-insulator-2/data.yaml" path in your google colab envirenment and open the 'data.yaml' file. Edit two pathes regarding 'train' and 'val'. Replace "/content/insatance-segmentation-insulator-2/train/images" with the path that already exists next to "train" and replace "/content/insatance-segmentation-insulator-2/valid/images" with the path that already exists next to "val". Then run the train code cell and wait for the training process to finish
+
+Next, run this code to save the training results in your google colab envieronment to your google drive storage: 
+```py
+import shutil
+shutil.copytree('/content/runs','/content/drive/MyDrive/"desired-path"',dirs_exist_ok=True)
+```
+Replace the desired path where you want to save the results to your drive with "desired-path"
