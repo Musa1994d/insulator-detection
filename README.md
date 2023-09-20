@@ -1,7 +1,6 @@
 # insulator-detection
 The goal of this project is to create an artificial neural network model using transfer learning to detect insulators in images. The yolov8n algorithm is used as a pre-trained model and is trained on a custom dataset including insulators.
-The program is written in Google colab and you can reach it [here](https://github.com/Musa1994d/insulator-detection/blob/main/insulator_detect_yolo8n.ipynb). The results of This project are in [this folder](https://github.com/Musa1994d/insulator-detection/tree/main/results)
-
+The program is written in Google colab and you can reach it [here](https://github.com/Musa1994d/insulator-detection/blob/main/insulator_detect_yolo8n.ipynb).
 ## dataset
 The dataset used in this project includes 917 images of insulators, 734 of which are considered as training data and 183 of which are considered as validation data. The size of the images is 640x640. this images are annotated in yolo format and are categorised in one class named 'insulator'.
 You can see and download this dataset [here](https://drive.google.com/drive/folders/1ht-Rm8S9wrBUQepxTEXjVMHnGwsKJi_t?usp=sharing)
@@ -40,3 +39,6 @@ import shutil
 shutil.copytree('/content/runs','/content/drive/MyDrive/"desired-path"',dirs_exist_ok=True)
 ```
 Replace the desired path where you want to save the results to your drive with "desired-path"
+
+## results
+in [this folder](https://github.com/Musa1994d/insulator-detection/tree/main/results/weights) you can reach the trained weights. and [here](https://github.com/Musa1994d/insulator-detection/tree/main/results) you can get all the results.
