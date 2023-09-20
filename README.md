@@ -31,5 +31,5 @@ next, train the model on the dataset in 60 epochs:
 ```py
 results = model.train(data='/content/insatance-segmentation-insulator-2/data.yaml', epochs=60, batch=8, imgsz=640)
 ```
-Considering the number of images in our database is not large, we chose the batch value of 8.
-note that before running training code cell, go to the "" path in your google colab envirenment and open the 'data.yaml' file. edit 
+Considering the number of images in our dataset is not large, we chose the batch value of 8.
+note that before running this training code cell, go to the "/content/insatance-segmentation-insulator-2/data.yaml" path in your google colab envirenment and open the 'data.yaml' file. edit two pathes regarding 'train' and 'val'. replace "/content/insatance-segmentation-insulator-2/train/images" with the path that already exists next to "train" and replace "/content/insatance-segmentation-insulator-2/valid/images" with the path that already exists next to "val". then run the train code cell.
