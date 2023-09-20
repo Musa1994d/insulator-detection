@@ -41,4 +41,16 @@ shutil.copytree('/content/runs','/content/drive/MyDrive/"desired-path"',dirs_exi
 Replace the desired path where you want to save the results to your drive with "desired-path"
 
 ## results
-in [this folder](https://github.com/Musa1994d/insulator-detection/tree/main/results/weights) you can reach the trained weights. and [here](https://github.com/Musa1994d/insulator-detection/tree/main/results) you can get all the results.
+In [this folder](https://github.com/Musa1994d/insulator-detection/tree/main/results/weights) you can reach the trained weights. And [here](https://github.com/Musa1994d/insulator-detection/tree/main/results) you can get all the results. For example, some images predected in the validation step are given below:
+
+![](https://github.com/Musa1994d/insulator-detection/blob/main/results/val_batch1_pred.jpg)
+
+
+![](https://github.com/Musa1994d/insulator-detection/blob/main/results/val_batch0_pred.jpg)
+
+
+And some of the training metrics are shown below:
+
+![](https://github.com/Musa1994d/insulator-detection/blob/main/results/results.png)
+
+As it can be seen, the amount of errors during training and validation is decreasing, and the values ​​of mAP50 and precision are increasing, which indicate the correctness of the training process.
