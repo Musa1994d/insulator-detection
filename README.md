@@ -1,5 +1,5 @@
 # insulator-detection
-a yolo8n model is trained on a insulator images dataset to detect and show them with a bounding box
+The goal of this project is to create a artificial neural network model using transfer learning to detect insulators in images. The yolo8n algorithm (as a pre-trained model) is trained on a custom dataset including insulators.
 
 ## dataset
-the dataset of this project consist of 
+The dataset used in this project includes 917 images of insulators, 734 of which are considered as training data and 183 of which are considered as validation data. You can see and download this dataset [here](https://drive.google.com/drive/folders/1ht-Rm8S9wrBUQepxTEXjVMHnGwsKJi_t?usp=sharing)
